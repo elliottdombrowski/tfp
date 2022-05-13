@@ -1,7 +1,18 @@
 main {
   .cover-photo {
+    position: relative;
     width: auto;
     height: auto;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 20px;
+      background: linear-gradient(to bottom, #080808, transparent);
+    }
 
     img {
       width: 100%;
