@@ -6,7 +6,7 @@ import './query.scss';
 const Header = () => {
   return (
     <header>
-      <h1>testing header</h1>
+      <div className='logo' />
     </header>
   );
 };
