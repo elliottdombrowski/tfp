@@ -4,6 +4,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 //IMPORTING COMPONENTS
 import Header from './components/Header/Header';
 
+//IMPORTING PAGES
+import Homepage from './pages/Homepage/Homepage';
+
 import './App.css';
 
 function App() {
@@ -11,9 +14,9 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-        
-        <Routes>
 
+        <Routes>
+          <Route exact path='/' element={<Homepage />} />
         </Routes>
       </Router>
     </div>
