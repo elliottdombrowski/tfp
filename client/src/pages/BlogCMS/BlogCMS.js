@@ -8,7 +8,11 @@ const BlogCMS = () => {
     <section className='blog-cms-wrapper'>
       <div className='blog-cms-header'></div>
       <div className='blog-cms-subheader'></div>
-      <div className='blog-cms-body'></div>
+      <div className='blog-cms-body'>
+        <textarea>
+          
+        </textarea>
+      </div>
     </section>
   );
 };
