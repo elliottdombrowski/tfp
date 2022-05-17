@@ -1,0 +1,28 @@
+.blog-cms-wrapper {
+  display: grid;
+  grid-template-areas:
+    'one one'
+    'two three'
+  ;
+  background: red;
+  // height: fit-content;
+  
+  div {
+    background: white;
+
+    &.blog-cms-header {
+      grid-area: one;
+      background: blue;
+    }
+
+    &.blog-cms-subheader {
+      grid-area: two;
+      background: yellow;
+    }
+
+    &.blog-cms-body {
+      grid-area: three;
+      background: orange;
+    }
+  }
+}

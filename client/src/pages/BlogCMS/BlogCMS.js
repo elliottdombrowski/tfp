@@ -5,7 +5,11 @@ import './query.scss';
 
 const BlogCMS = () => {
   return (
-    <h1>Blog CMS</h1>
+    <section className='blog-cms-wrapper'>
+      <div className='blog-cms-header'></div>
+      <div className='blog-cms-subheader'></div>
+      <div className='blog-cms-body'></div>
+    </section>
   );
 };
  
