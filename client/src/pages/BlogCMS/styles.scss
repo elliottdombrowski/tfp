@@ -13,16 +13,27 @@
     background: white;
 
     &.blog-cms-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       grid-area: cms-header;
       background: blue;
-      height: 80px;
+      height: 60px;
       border-radius: 10px 10px 0 0;
+
+      input {
+        width: calc(100% - 10px);
+        height: calc(100% - 20px);
+        padding: 1rem;
+        border-radius: 10px;
+        font-size: 20px;
+      }
     }
     
     &.blog-cms-subheader {
       grid-area: cms-subheader;
       background: yellow;
-      height: 80px;
+      height: 60px;
     }
 
     &.blog-cms-body {
