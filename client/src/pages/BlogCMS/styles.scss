@@ -12,7 +12,7 @@
   div {
     background: white;
 
-    &.blog-cms-header {
+    &.blog-cms-header, &.blog-cms-subheader {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -33,7 +33,6 @@
     &.blog-cms-subheader {
       grid-area: cms-subheader;
       background: yellow;
-      height: 60px;
     }
 
     &.blog-cms-body {

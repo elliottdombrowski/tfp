@@ -9,15 +9,24 @@ const BlogCMS = () => {
       <div className='blog-cms-header'>
         <input
           type='text'
-          className='blog-cms-header'
+          placeholder='header'
+          className='blog-cms-header-input'
+          />
+      </div>
+
+      <div className='blog-cms-subheader'>
+        <input
+          type='text'
+          placeholder='subheader'
+          className='blog-cms-subheader-input'
         />
       </div>
-      <div className='blog-cms-subheader'></div>
+
       <div className='blog-cms-body'>
         <textarea />
       </div>
     </section>
   );
 };
- 
+
 export default BlogCMS;
