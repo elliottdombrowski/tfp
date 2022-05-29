@@ -1,0 +1,13 @@
+.shows-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  color: white;
+
+  .shows-wrapper {
+    width: 60%;
+    height: fit-content;
+  }
+}
