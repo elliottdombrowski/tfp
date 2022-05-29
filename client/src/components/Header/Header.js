@@ -39,7 +39,7 @@ const Header = () => {
 
         <ul className='main-nav' id='main-nav'>
           <li>
-            <Link to='#'>
+            <Link to='/tour'>
               shows.
             </Link>
           </li>
