@@ -54,5 +54,41 @@
         font-size: 18px;
       }
     }
+
+    &.blog-cms-btn-wrapper {
+      display: flex;
+      justify-content: flex-end;
+      background: transparent;
+      margin-top: 1rem;
+
+      button {
+        padding: 1rem 0;
+        width: 200px;
+        border-radius: 10px;
+        border: 1px solid white;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+        text-transform: uppercase;
+        transition: 0.2s ease-in-out;
+        cursor: pointer;
+        
+        &.blog-cms-schedule {
+          background: transparent;
+        }
+
+        &.blog-cms-submit {
+          background: #232226;
+          margin-left: 1rem;
+        }
+
+        &:hover, :focus {
+          transform: scale(1.05);
+          background: white;
+          color: #080808;
+        }
+      }
+    }
   }
 }
