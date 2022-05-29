@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 
 //IMPORTING PAGES
 import Homepage from './pages/Homepage/Homepage';
+import Shows from './pages/Shows/Shows';
 import BlogPage from './pages/BlogPage/BlogPage';
 import BlogCMS from './pages/BlogCMS/BlogCMS';
 
@@ -21,6 +22,7 @@ function App() {
         <Routes> 
           <Route exact path='/' element={<Homepage />} />
 
+          <Route exact path='/tour' element={<Shows />} />
           <Route exact path='/blog' element={<BlogPage />} />
           <Route exact path='/blogcms' element={<BlogCMS />} />
         </Routes>
