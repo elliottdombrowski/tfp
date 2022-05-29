@@ -16,10 +16,10 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-        <BlogCMS />
+        {/* <BlogCMS /> */}
 
         <Routes> 
-          {/* <Route exact path='/' element={<Homepage />} /> */}
+          <Route exact path='/' element={<Homepage />} />
 
           <Route exact path='/blog' element={<BlogPage />} />
           <Route exact path='/blogcms' element={<BlogCMS />} />
