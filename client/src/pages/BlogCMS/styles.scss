@@ -10,20 +10,23 @@
   padding-top: 4rem;
   
   div {
-    background: white;
-
+    background: #2e2d35;
+    
+    &:first-child {
+      border-radius: 10px 10px 0 0;
+    }
+    
     &.blog-cms-header, &.blog-cms-subheader {
       display: flex;
       justify-content: center;
       align-items: center;
       grid-area: cms-header;
-      background: blue;
+      background: #2e2d35;
       height: 60px;
-      border-radius: 10px 10px 0 0;
-
+      
       input {
-        width: calc(100% - 10px);
-        height: calc(100% - 20px);
+        width: calc(100% - 16px);
+        height: calc(100% - 16px);
         padding: 1rem;
         border-radius: 10px;
         font-size: 20px;
@@ -32,20 +35,22 @@
     
     &.blog-cms-subheader {
       grid-area: cms-subheader;
-      background: yellow;
     }
 
     &.blog-cms-body {
+      display: flex;
+      justify-content: center;
       grid-area: cms-body;
-      background: transparent;
       height: 400px;
+      padding-top: 1rem;
+      border-radius: 0 0 10px 10px;
       
       textarea {
-        width: 100%;
-        height: 100%;
+        width: calc(100% - 16px);
+        height: calc(100% - 8px);
         padding: 1rem;
         resize: none;
-        border-radius: 0 0 10px 10px;
+        border-radius: 10px;
         font-size: 18px;
       }
     }

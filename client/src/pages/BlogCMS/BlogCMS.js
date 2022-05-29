@@ -9,7 +9,7 @@ const BlogCMS = () => {
       <div className='blog-cms-header'>
         <input
           type='text'
-          placeholder='header'
+          placeholder='header.'
           className='blog-cms-header-input'
           />
       </div>
@@ -17,7 +17,7 @@ const BlogCMS = () => {
       <div className='blog-cms-subheader'>
         <input
           type='text'
-          placeholder='subheader'
+          placeholder='subheader.'
           className='blog-cms-subheader-input'
         />
       </div>
