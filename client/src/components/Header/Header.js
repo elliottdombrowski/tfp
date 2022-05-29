@@ -6,7 +6,12 @@ import './query.scss';
 
 
 const Header = () => {
+  //MOBILE MENU / HAMBURGER
+  const mobileMenu = () => {
+    document.getElementById('hamburger').classList.toggle('active');
+  }
 
+  // NAV RESIZING ON SCROLL 
   window.onscroll = function() {scaleNav()};
   function scaleNav() {
     let mainNav = document.getElementById('main-nav');
@@ -54,6 +59,16 @@ const Header = () => {
             </Link>
           </li>
         </ul>
+
+        <div 
+          className='hamburger'
+          id='hamburger'
+          onClick={() => mobileMenu()}
+        >
+          <span className='bar' id='bar1' />
+          <span className='bar' id='bar2' />
+          <span className='bar' id='bar3' />
+        </div>
     </header>
   );
 };

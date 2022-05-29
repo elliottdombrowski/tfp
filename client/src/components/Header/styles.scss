@@ -12,17 +12,13 @@ header {
   z-index: 5;
 
   .logo {
-    background: url('../../assets/tfp-logo.png');
-    background-repeat: no-repeat;
+    background: url('../../assets/tfp-logo.png') no-repeat;
     background-size: contain;
     background-position: center;
     height: 80px;
     width: 500px;
     transition: 0.2s ease-in-out;
     cursor: pointer;
-
-    &:hover {
-    }
   }
   
   .main-nav {
@@ -44,6 +40,20 @@ header {
       
     li:not(:last-child) {
       margin-right: 2rem;
+    }
+  }
+
+  .hamburger {
+    display: none;
+    cursor: pointer;
+
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      transition: all 0.3s ease-in-out;
+      background: white;
     }
   }
 }

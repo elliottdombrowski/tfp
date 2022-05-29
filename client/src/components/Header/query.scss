@@ -1,0 +1,31 @@
+@media all and (max-width: 768px) {
+  header {
+    padding: 1rem 2rem; 
+
+    .logo {
+      background: url('../../assets/logo-short.png') no-repeat;
+      background-size: contain;
+      background-position: center;
+      height: 40px;
+      width: 80px;
+    }
+
+    .main-nav {
+      display: none;
+    }
+
+    .hamburger {
+      display: block;
+    }
+    
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  }
+}
