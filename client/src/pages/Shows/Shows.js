@@ -61,6 +61,10 @@ const show = [
 const Shows = () => {
   return (
     <section className='shows-page'>
+      <div className='shows-page-bg'>
+        <img src={require('../../assets/bongripper-bg.jpeg')} />
+      </div>
+
       <div className='shows-wrapper'>
         {
           show.map((shows) => {
