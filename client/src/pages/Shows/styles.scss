@@ -8,13 +8,25 @@
 
   .shows-wrapper {
     width: 60%;
-    height: fit-content;
-
+    
     .shows-output {
       display: flex;
+      // height: 40px;
+      padding: 12px 0;
 
       &:not(:last-child) {
         border-bottom: 1px solid rgb(132, 132, 132);
+      }
+
+      .show-location-wrapper {
+        display: flex;
+        position: relative;
+
+        .show-venue {
+          position: absolute;
+          left: 200px;
+          width: 300px;
+        }
       }
     }
   }

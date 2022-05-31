@@ -10,6 +10,7 @@ const show = [
     dateWeekdayAbv: "wed",
     dateMonth: "june",
     dateDay: "1",
+    dateTime: "7:00",
     city: "chicago",
     state: "IL",
     ticketLink: "bandsintown.com",
@@ -21,6 +22,7 @@ const show = [
     dateWeekdayAbv: "thu",
     dateMonth: "june",
     dateDay: "2",
+    dateTime: "7:00",
     city: "chicago",
     state: "IL",
     ticketLink: "bandsintown.com",
@@ -32,6 +34,7 @@ const show = [
     dateWeekdayAbv: "fri",
     dateMonth: "june",
     dateDay: "3",
+    dateTime: "7:00",
     city: "cincinnati",
     state: "OH",
     ticketLink: "bandsintown.com",
@@ -43,6 +46,7 @@ const show = [
     dateWeekdayAbv: "sat",
     dateMonth: "june",
     dateDay: "4",
+    dateTime: "7:00",
     city: "louisville",
     state: "KY",
     ticketLink: "bandsintown.com",
@@ -58,7 +62,12 @@ const Shows = () => {
           show.map((shows) => {
             return (
               <div className='shows-output' key={shows.id}>
-                <h1>{shows.venue}</h1>
+                <div className='show-location-wrapper'>
+                  <h1 className='show-date'>
+                    {shows.dateWeekdayAbv}, {shows.dateMonth} {shows.dateDay}
+                  </h1>
+                  <h1 className='show-venue'>{shows.venue}</h1>
+                </div>
               </div>
             );
           })
