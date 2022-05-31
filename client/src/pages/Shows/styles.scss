@@ -2,9 +2,6 @@
 
 .shows-page {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100vh;
   color: white;
@@ -22,6 +19,9 @@
 
   .shows-wrapper {
     width: 80%;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 280px 0 200px;
     
     .shows-output {
       position: relative;

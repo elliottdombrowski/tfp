@@ -18,7 +18,7 @@ const show = [
     rsvpLink: "bandsintown.com",
   },
   {
-    id: 1,
+    id: 2,
     venue: "empty bottle",
     dateWeekdayAbv: "thu",
     dateMonth: "june",
@@ -31,7 +31,7 @@ const show = [
     rsvpLink: "bandsintown.com",
   },
   {
-    id: 1,
+    id: 3,
     venue: "the hub",
     dateWeekdayAbv: "fri",
     dateMonth: "june",
@@ -44,7 +44,7 @@ const show = [
     rsvpLink: "bandsintown.com",
   },
   {
-    id: 1,
+    id: 4,
     venue: "spinelli's pizza",
     dateWeekdayAbv: "sat",
     dateMonth: "june",
