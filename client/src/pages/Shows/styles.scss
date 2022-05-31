@@ -9,5 +9,13 @@
   .shows-wrapper {
     width: 60%;
     height: fit-content;
+
+    .shows-output {
+      display: flex;
+
+      &:not(:last-child) {
+        border-bottom: 1px solid rgb(132, 132, 132);
+      }
+    }
   }
 }
