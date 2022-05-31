@@ -11,8 +11,9 @@
     
     .shows-output {
       display: flex;
-      // height: 40px;
+      justify-content: space-between;
       padding: 12px 0;
+      letter-spacing: 0.5px;
 
       &:not(:last-child) {
         border-bottom: 1px solid rgb(132, 132, 132);

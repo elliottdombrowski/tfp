@@ -11,6 +11,7 @@ const show = [
     dateMonth: "june",
     dateDay: "1",
     dateTime: "7:00",
+    dateTime2: "pm",
     city: "chicago",
     state: "IL",
     ticketLink: "bandsintown.com",
@@ -23,6 +24,7 @@ const show = [
     dateMonth: "june",
     dateDay: "2",
     dateTime: "7:00",
+    dateTime2: "pm",
     city: "chicago",
     state: "IL",
     ticketLink: "bandsintown.com",
@@ -35,6 +37,7 @@ const show = [
     dateMonth: "june",
     dateDay: "3",
     dateTime: "7:00",
+    dateTime2: "pm",
     city: "cincinnati",
     state: "OH",
     ticketLink: "bandsintown.com",
@@ -47,9 +50,10 @@ const show = [
     dateMonth: "june",
     dateDay: "4",
     dateTime: "7:00",
+    dateTime2: "pm",
     city: "louisville",
     state: "KY",
-    ticketLink: "bandsintown.com",
+    ticketLink: "https://bandsintown.com/",
     rsvpLink: "bandsintown.com",
   },
 ];
@@ -66,7 +70,25 @@ const Shows = () => {
                   <h1 className='show-date'>
                     {shows.dateWeekdayAbv}, {shows.dateMonth} {shows.dateDay}
                   </h1>
-                  <h1 className='show-venue'>{shows.venue}</h1>
+                  <h1 className='show-venue'>{shows.venue} @ {shows.dateTime}{shows.dateTime2}</h1>
+                </div>
+
+                <div className='show-links-wrapper'>
+                  <a
+                    href={shows.ticketLink}
+                    target='_blank'
+                    className='show-ticket-btn'
+                  >
+                    TICKETS
+                  </a>
+
+                  <a
+                    href={shows.rsvpLink}
+                    target='_blank'
+                    className='show-rsvp-btn'
+                  >
+                    RSVP
+                  </a>
                 </div>
               </div>
             );
