@@ -1,11 +1,17 @@
 import React from 'react';
 
+import ShopNav from '../../components/ShopNav/ShopNav';
+import Category from '../../components/Category/Category';
+
 import './styles.scss';
 import './query.scss';
 
 const Shop = () => {
   return (
-    <h1>shop</h1>
+    <section className='shop-wrapper'>
+      <ShopNav />
+      <Category />
+    </section>
   );
 };
  
