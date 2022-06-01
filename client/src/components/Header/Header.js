@@ -49,7 +49,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link to='#'>
+            <Link to='/shop'>
               merch.
             </Link>
           </li>
