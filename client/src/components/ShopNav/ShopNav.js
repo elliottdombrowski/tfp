@@ -37,7 +37,9 @@ const ShopNav = () => {
         {
           categories.map((category) => {
             return (
-              <li>{category.name}</li>
+              <li>
+                <h1>{category.name}</h1>
+              </li>
             );
           })
         }

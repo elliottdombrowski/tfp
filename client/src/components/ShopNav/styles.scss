@@ -1,10 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
 .shop-nav {
-  background: #1a1a1be1;
+  background: #141415e1;
   padding-top: 7rem;
-  width: 350px;
+  width: fit-content;
   height: 100vh;
+  padding: 7rem 2rem 0;
   color: white;
   font-family: 'Source Code Pro', monospace;
+
+  ul {
+    list-style-type: none;
+
+    li {
+      h1 {
+        position: relative;
+        width: fit-content;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+        
+        &:hover, &:focus {
+          opacity: 0.5;
+          transform: scale(1.05);
+          
+          &::after {
+            position: absolute;
+            content: '';
+            height: 2px;
+            background: white;
+            left: 0;
+            right: 0;
+            bottom: -3px;
+          }
+        }
+      }
+
+      &:not(:first-child) {
+        margin-top: .6rem;
+      }
+    }
+  }
 }
