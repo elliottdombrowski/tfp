@@ -6,27 +6,27 @@ import './query.scss';
 const categories = [
   {
     id: 1,
-    name: 'Vinyl'
+    name: 'vinyl'
   },
   {
     id: 2,
-    name: 'Cassettes'
+    name: 'cassettes'
   },
   {
     id: 3,
-    name: 'CDs'
+    name: 'cds'
   },
   {
     id: 4,
-    name: 'T-Shirts'
+    name: 't-shirts'
   },
   {
     id: 5,
-    name: 'Hoodies'
+    name: 'hoodies'
   },
   {
     id: 6,
-    name: 'Hats'
+    name: 'hats'
   },
 ]
 
