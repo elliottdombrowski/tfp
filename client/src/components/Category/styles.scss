@@ -24,6 +24,14 @@
       padding: 1rem;
       color: white;
       font-family: 'Source Code Pro', monospace;
+
+      .product-btn {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        background: red;
+        width: 250px;
+      }
       
       img {
         width: 250px;

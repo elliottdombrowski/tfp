@@ -74,9 +74,11 @@ const Hats = () => {
               <h1>{hat.title}</h1>
               <p>${hat.price}</p>
 
-              <a href='#' className='product-btn'>
-                buy on bandcamp
-              </a>
+              <h1 className='product-btn'>
+                <a href='#'>
+                  buy on bandcamp
+                </a>
+              </h1>
             </div>
           );
         })

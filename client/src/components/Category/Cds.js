@@ -74,9 +74,11 @@ const Cds = () => {
               <h1>{cd.title}</h1>
               <p>${cd.price}</p>
 
-              <a href='#' className='product-btn'>
-                buy on bandcamp
-              </a>
+              <h1 className='product-btn'>
+                <a href='#'>
+                  buy on bandcamp
+                </a>
+              </h1>
             </div>
           );
         })

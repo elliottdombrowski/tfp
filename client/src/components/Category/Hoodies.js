@@ -74,9 +74,11 @@ const Hoodies = () => {
               <h1>{hoodie.title}</h1>
               <p>${hoodie.price}</p>
 
-              <a href='#' className='product-btn'>
-                buy on bandcamp
-              </a>
+              <h1 className='product-btn'>
+                <a href='#'>
+                  buy on bandcamp
+                </a>
+              </h1>
             </div>
           );
         })
