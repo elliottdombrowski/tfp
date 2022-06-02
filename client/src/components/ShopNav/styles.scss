@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
 .shop-nav {
-  background: #141415e1;
+  display: flex;
+  justify-content: center;
   padding-top: 7rem;
-  width: fit-content;
+  width: 200px;
   height: 100vh;
   padding: 7rem 2rem 0;
   color: white;

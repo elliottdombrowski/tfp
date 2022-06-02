@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+.category-page-wrapper {
+  padding: 7rem 5rem 0;
+  height: 100vh;
+  width: calc(100vw - 200px);
+  background: #141415e1;
+
+  .category-header {
+    color: white;
+    padding-left: 1rem;
+    padding: 1rem 0 1rem 1rem;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 32px;
+  }
+
+  .category-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow-y: scroll;
+    
+    .shirt-product {
+      padding: 1rem;
+      color: white;
+      font-family: 'Source Code Pro', monospace;
+      
+      img {
+        width: 250px;
+        height: 250px;
+        border-radius: 8px;
+      }
+      
+      h1 {
+        padding-top: .8rem;
+        font-size: 22px;
+      }
+      
+      p {
+        padding-top: .2rem;
+        font-size: 20px;
+      }
+    }
+  }
+}
