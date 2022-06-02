@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './styles.scss';
 import './query.scss';
@@ -31,18 +31,41 @@ const categories = [
 ]
 
 const ShopNav = () => {
+  const [category, setCategory] = useState('');
+  
   return (
     <div className='shop-nav'>
-      <ul className='shop-category-list' key={categories.id}>
-        {
-          categories.map((category) => {
-            return (
-              <li>
-                <h1>{category.name}</h1>
-              </li>
-            );
-          })
-        }
+      <ul className='shop-category-list'>
+        <li>
+          <h1
+            onClick={() => setCategory('vinyl')}
+          >vinyl</h1>
+        </li>
+        <li>
+          <h1
+            onClick={() => setCategory('cassettes')}
+          >cassettes</h1>
+        </li>
+        <li>
+          <h1
+            onClick={() => setCategory('cds')}
+          >cds</h1>
+        </li>
+        <li>
+          <h1
+            onClick={() => setCategory('t-shirts')}
+          >t-shirts</h1>
+        </li>
+        <li>
+          <h1
+            onClick={() => setCategory('hoodies')}
+          >hoodies</h1>
+        </li>
+        <li>
+          <h1 
+            onClick={() => setCategory('hats')}
+          >hats</h1>
+        </li>
       </ul>
     </div>
   );
