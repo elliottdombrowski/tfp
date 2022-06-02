@@ -73,6 +73,10 @@ const Vinyl = () => {
               <img src={require('./no-img.jpeg')} />
               <h1>{vinyl.title}</h1>
               <p>${vinyl.price}</p>
+
+              <a href='#' className='product-btn'>
+                buy on bandcamp
+              </a>
             </div>
           );
         })

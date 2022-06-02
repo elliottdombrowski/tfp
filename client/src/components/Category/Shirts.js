@@ -73,6 +73,10 @@ const Shirts = () => {
               <img src={require('./no-img.jpeg')} />
               <h1>{shirt.title}</h1>
               <p>${shirt.price}</p>
+
+              <a href='#' className='product-btn'>
+                buy on bandcamp
+              </a>
             </div>
           );
         })

@@ -73,6 +73,10 @@ const Cds = () => {
               <img src={require('./no-img.jpeg')} />
               <h1>{cd.title}</h1>
               <p>${cd.price}</p>
+
+              <a href='#' className='product-btn'>
+                buy on bandcamp
+              </a>
             </div>
           );
         })

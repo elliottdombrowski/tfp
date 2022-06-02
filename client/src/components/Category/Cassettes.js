@@ -73,6 +73,10 @@ const Cassettes = () => {
               <img src={require('./no-img.jpeg')} />
               <h1>{cassette.title}</h1>
               <p>${cassette.price}</p>
+
+              <a href='#' className='product-btn'>
+                buy on bandcamp
+              </a>
             </div>
           );
         })
