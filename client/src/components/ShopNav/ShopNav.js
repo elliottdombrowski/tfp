@@ -30,9 +30,7 @@ const categories = [
   },
 ]
 
-const ShopNav = () => {
-  const [category, setCategory] = useState('');
-  
+const ShopNav = ({ category, setCategory }) => {
   return (
     <div className='shop-nav'>
       <ul className='shop-category-list'>

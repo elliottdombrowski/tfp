@@ -69,7 +69,7 @@ const Shirts = () => {
       {
         shirts.map((shirt) => {
           return (
-            <div className='shirt-product' key={shirt.id}>
+            <div className='product' key={shirt.id}>
               <img src={require('./no-img.jpeg')} />
               <h1>{shirt.title}</h1>
               <p>${shirt.price}</p>
