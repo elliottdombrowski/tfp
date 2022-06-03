@@ -1,6 +1,12 @@
 const express = require('express');
-const app = express();
 const path = require('path');
+const cors = require('cors');
+const db = require('./config/connection');
+require('dotenv').config();
+
+const { ApolloServer } = require('apollo-server-express');
+
+const app = express();
 const PORT = process.env.PORT || 3001;
 
 app.use(express.urlencoded({ extended: false }));
