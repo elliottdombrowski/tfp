@@ -60,7 +60,7 @@ const show = [
 
 const Shows = () => {
   return (
-    <section className='shows-page'>
+    <section className='shows-page' id='show-page'>
       <div className='shows-page-bg'>
         <img src={require('../../assets/bongripper-bg.jpeg')} />
       </div>
