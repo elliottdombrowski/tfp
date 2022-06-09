@@ -3,7 +3,7 @@ const bcrypt = require('bcrypt');
 const { Schema } = mongoose;
 
 const blogPostSchema = new Schema({
-  poster: {
+  author: {
     type: String,
     required: true,
     trim: true
