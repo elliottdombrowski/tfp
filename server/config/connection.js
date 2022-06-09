@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/swept', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/tfp', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
