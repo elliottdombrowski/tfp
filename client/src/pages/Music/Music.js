@@ -6,7 +6,9 @@ import './query.scss';
 const Music = () => {
   return (
     <section className='music-page'>
-      <h1>def render</h1>
+      <div className='release-cover'>
+        <img src={require('../../assets/extraviolence.jpeg')} />
+      </div>
     </section>
   );
 };

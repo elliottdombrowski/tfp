@@ -8,6 +8,7 @@ import Header from './components/Header/Header';
 import Homepage from './pages/Homepage/Homepage';
 import Shows from './pages/Shows/Shows';
 import Shop from './pages/Shop/Shop';
+import Music from './pages/Music/Music';
 import BlogPage from './pages/BlogPage/BlogPage';
 import BlogCMS from './pages/BlogCMS/BlogCMS';
 
@@ -25,6 +26,7 @@ function App() {
 
           <Route exact path='/tour' element={<Shows />} />
           <Route exact path='/shop' element={<Shop />} />
+          <Route exact path='/releases' element={<Music />} />
           <Route exact path='/blog' element={<BlogPage />} />
           <Route exact path='/blogcms' element={<BlogCMS />} />
         </Routes>

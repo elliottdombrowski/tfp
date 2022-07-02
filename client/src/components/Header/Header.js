@@ -44,7 +44,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link to='#'>
+            <Link to='/releases'>
               music.
             </Link>
           </li>
