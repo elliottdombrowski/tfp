@@ -10,8 +10,8 @@ const Homepage = () => {
   return (
     <main>
       <div className='main-content'>
-        <img src={require('../../assets/bongripper2.jpeg')} />
-        <Releases />
+        <img src={require('../../assets/tfp-spotlight.png')} />
+        {/* <Releases /> */}
       </div>
 
       <MainContent />
